@@ -17,7 +17,7 @@ f2.write("I am now using append")
 
 #Copying every content in fh_filehandling_test to abc file
 
-f3 = open('abc','w')
+f3 = open('abc', 'w')
 for i in f:
     f3.write(i)
 
